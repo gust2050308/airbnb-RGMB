@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "airbnb",
+    "slug": "airbnb",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" : "com.utez.airbnbE",
+      "ios": {
+      "config": {
+        "googleMapsApiKey":  "AIzaSyDa8TaImTuWorznaXjJLF_40n0KiTSIyp0"
+        }
+      }
+    },
+    "android": {
+      "package" : "airBNBE",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "pegar -- Mostrar clave"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
+  }
+}
